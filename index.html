@@ -1,11 +1,11 @@
-<!-- TurfIQ — public showcase. Static, self-contained, safe for GitHub Pages. -->
+<!-- TurfIQ public showcase. Static, self-contained, safe for GitHub Pages. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TurfIQ — precise lawn measurement from an address</title>
-<meta name="description" content="TurfIQ turns a street address into an accurate mowable-area measurement, verified against 3D ground data — with a picture you can check.">
+<title>TurfIQ: precise lawn measurement from an address</title>
+<meta name="description" content="TurfIQ turns a street address into an accurate mowable-area measurement, verified against 3D ground data, with a picture you can check.">
 <style>
   :root{
     --bg:#f4f7f3; --panel:#ffffff; --ink:#15211a; --muted:#5a6a5f; --line:#e2e8e2;
@@ -96,12 +96,12 @@
     <div>
       <div style="font-size:23px;font-weight:800;letter-spacing:-.01em;margin-bottom:22px">Turf<span style="color:#6ef0e0">IQ</span></div>
       <div class="eyebrow">Lawn measurement, automated</div>
-      <h1>The exact mowable area of any lawn — from just an address.</h1>
+      <h1>The exact mowable area of any lawn, from just an address.</h1>
       <p>A square-footage measurement backed by 3D ground data, with a picture your crew and your customer can both verify.</p>
     </div>
     <figure class="hero-shot" style="margin:0">
       <img id="heroShot" alt="Measured lawn, sampled from 3D ground data" src="assets/img/sample-01.png">
-      <figcaption class="hero-cap">Each green point is real ground measured as lawn — the roof and driveway have none, so they exclude themselves.</figcaption>
+      <figcaption class="hero-cap">Each green point is real ground measured as lawn. The roof and driveway have none, so they exclude themselves.</figcaption>
     </figure>
   </div>
 </header>
@@ -109,7 +109,7 @@
 <main class="wrap">
   <section id="demo">
     <h2>See it on real properties</h2>
-    <p class="lead">Pick a property. These are real, pre-computed measurements — the green stipple is the mowable turf the system found, and the outline is the lot extended to the curb (the strip a crew actually mows).</p>
+    <p class="lead">Pick a property. These are real, pre-computed measurements. The green stipple is the mowable turf the system found, and the outline is the lot extended to the curb (the strip a crew actually mows).</p>
     <div class="demo">
       <div class="demo-top">
         <label for="pick">Property</label>
@@ -135,14 +135,14 @@
 
   <section id="how">
     <h2>How it works</h2>
-    <p class="lead">Three data layers, combined — so trees, shadows, and driveways don't fool the number.</p>
+    <p class="lead">Three data layers work together, so trees, shadows, and driveways don't fool the number.</p>
     <div class="steps">
       <div class="step"><div class="n">1</div><h3>Find the property</h3>
-        <p>The address resolves to the authoritative parcel boundary — the legal lot lines, not an approximation.</p></div>
+        <p>The address resolves to the authoritative parcel boundary: the legal lot lines, not an approximation.</p></div>
       <div class="step"><div class="n">2</div><h3>Read the ground cover</h3>
         <p>Current aerial imagery is analyzed to separate turf from house, driveway, and paving.</p></div>
       <div class="step"><div class="n">3</div><h3>Measure with 3D ground data</h3>
-        <p>LiDAR ground returns confirm genuinely mowable turf — even under tree canopy — and set the square footage. The strip out to the curb is included, because that's what gets mowed.</p></div>
+        <p>LiDAR ground returns confirm genuinely mowable turf, even under tree canopy, and set the square footage. The strip out to the curb is included, because that's what gets mowed.</p></div>
     </div>
   </section>
 
@@ -152,7 +152,7 @@
         <h2>Why it's accurate</h2>
         <ul class="ticks">
           <li>Authoritative parcel boundaries, not inferred lot lines.</li>
-          <li>Two independent sensors cover each other's blind spots — imagery can't see lawn under trees; 3D ground data can.</li>
+          <li>Two independent sensors cover each other's blind spots. Imagery can't see lawn under trees; 3D ground data can.</li>
           <li>The square footage is measured from ground points, so roofs and paving are excluded by nature.</li>
           <li>Fails clearly when it can't be sure, instead of returning a confident wrong number.</li>
         </ul>
@@ -160,7 +160,7 @@
       <div>
         <h2>Built like production software</h2>
         <ul class="ticks">
-          <li>Ports-and-adapters architecture — new regions plug in without touching the core.</li>
+          <li>Ports-and-adapters architecture, so new regions plug in without touching the core.</li>
           <li>Continuous integration and deployment to a live hosted API.</li>
           <li>A byte-identical regression gate guarding every change to the math.</li>
           <li>A fast, fully offline test suite; reproducible, fully pinned builds.</li>
@@ -172,7 +172,7 @@
 
 <footer>
   <div class="wrap">
-    <strong>TurfIQ</strong> — automated lawn-area measurement for the lawn-care industry.
+    <strong>TurfIQ</strong>: automated lawn-area measurement for the lawn-care industry.
     <div style="margin-top:8px">Demo shows pre-computed results for sample properties on public-domain county aerial imagery. © <span id="yr"></span> All rights reserved.</div>
   </div>
 </footer>
@@ -189,7 +189,7 @@ const boot = samples => {
   samples.forEach((s, i) => {
     const o = document.createElement("option");
     o.value = String(i);
-    o.textContent = (s.hero ? "★ " : "") + s.label + " — " + fmt(s.lawn_sqft) + " sq ft";
+    o.textContent = (s.hero ? "★ " : "") + s.label + " · " + fmt(s.lawn_sqft) + " sq ft";
     pick.appendChild(o);
   });
   const show = i => {
