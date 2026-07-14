@@ -1,0 +1,173 @@
+[
+  {
+    "id": "sample-01",
+    "hero": true,
+    "label": "S 211th St, Elkhorn",
+    "lawn_sqft": 7919,
+    "parcel_sqft": 12992,
+    "to_curb_sqft": 15730,
+    "img": "assets/img/sample-01.png"
+  },
+  {
+    "id": "sample-02",
+    "hero": true,
+    "label": "Butler Ave, Omaha",
+    "lawn_sqft": 2809,
+    "parcel_sqft": 6444,
+    "to_curb_sqft": 7116,
+    "img": "assets/img/sample-02.png"
+  },
+  {
+    "id": "sample-03",
+    "hero": true,
+    "label": "N 170th Ave, Omaha",
+    "lawn_sqft": 7121,
+    "parcel_sqft": 11927,
+    "to_curb_sqft": 14645,
+    "img": "assets/img/sample-03.png"
+  },
+  {
+    "id": "sample-04",
+    "hero": false,
+    "label": "Madison St, Omaha",
+    "lawn_sqft": 4833,
+    "parcel_sqft": 9629,
+    "to_curb_sqft": 10554,
+    "img": "assets/img/sample-04.png"
+  },
+  {
+    "id": "sample-05",
+    "hero": false,
+    "label": "N 173rd St, Omaha",
+    "lawn_sqft": 5698,
+    "parcel_sqft": 10974,
+    "to_curb_sqft": 11893,
+    "img": "assets/img/sample-05.png"
+  },
+  {
+    "id": "sample-06",
+    "hero": false,
+    "label": "S 116th Ave, Omaha",
+    "lawn_sqft": 6130,
+    "parcel_sqft": 11839,
+    "to_curb_sqft": 13133,
+    "img": "assets/img/sample-06.png"
+  },
+  {
+    "id": "sample-07",
+    "hero": false,
+    "label": "Burt St, Omaha",
+    "lawn_sqft": 2659,
+    "parcel_sqft": 6755,
+    "to_curb_sqft": 7422,
+    "img": "assets/img/sample-07.png"
+  },
+  {
+    "id": "sample-08",
+    "hero": false,
+    "label": "Ruggles St, Omaha",
+    "lawn_sqft": 5398,
+    "parcel_sqft": 10313,
+    "to_curb_sqft": 11014,
+    "img": "assets/img/sample-08.png"
+  },
+  {
+    "id": "sample-09",
+    "hero": false,
+    "label": "N 181st Ave, Elkhorn",
+    "lawn_sqft": 9672,
+    "parcel_sqft": 11574,
+    "to_curb_sqft": 15768,
+    "img": "assets/img/sample-09.png"
+  },
+  {
+    "id": "sample-10",
+    "hero": false,
+    "label": "N 180th Ave, Elkhorn",
+    "lawn_sqft": 6611,
+    "parcel_sqft": 11300,
+    "to_curb_sqft": 12239,
+    "img": "assets/img/sample-10.png"
+  },
+  {
+    "id": "sample-11",
+    "hero": false,
+    "label": "S 203rd St, Omaha",
+    "lawn_sqft": 8324,
+    "parcel_sqft": 13536,
+    "to_curb_sqft": 14819,
+    "img": "assets/img/sample-11.png"
+  },
+  {
+    "id": "sample-12",
+    "hero": false,
+    "label": "Western Ave, Omaha",
+    "lawn_sqft": 11335,
+    "parcel_sqft": 14587,
+    "to_curb_sqft": 18048,
+    "img": "assets/img/sample-12.png"
+  },
+  {
+    "id": "sample-13",
+    "hero": false,
+    "label": "Seward St, Omaha",
+    "lawn_sqft": 8522,
+    "parcel_sqft": 12348,
+    "to_curb_sqft": 14860,
+    "img": "assets/img/sample-13.png"
+  },
+  {
+    "id": "sample-14",
+    "hero": false,
+    "label": "S 70th St, Omaha",
+    "lawn_sqft": 6185,
+    "parcel_sqft": 11034,
+    "to_curb_sqft": 12632,
+    "img": "assets/img/sample-14.png"
+  },
+  {
+    "id": "sample-15",
+    "hero": false,
+    "label": "Western Ave, Omaha",
+    "lawn_sqft": 7733,
+    "parcel_sqft": 11582,
+    "to_curb_sqft": 14568,
+    "img": "assets/img/sample-15.png"
+  },
+  {
+    "id": "sample-16",
+    "hero": false,
+    "label": "Erskine St, Omaha",
+    "lawn_sqft": 8484,
+    "parcel_sqft": 12634,
+    "to_curb_sqft": 13229,
+    "img": "assets/img/sample-16.png"
+  },
+  {
+    "id": "sample-17",
+    "hero": false,
+    "label": "N 113th St, Omaha",
+    "lawn_sqft": 7244,
+    "parcel_sqft": 11794,
+    "to_curb_sqft": 12566,
+    "img": "assets/img/sample-17.png"
+  },
+  {
+    "id": "sample-18",
+    "hero": false,
+    "label": "Dayton Cir, Omaha",
+    "lawn_sqft": 9302,
+    "parcel_sqft": 12340,
+    "to_curb_sqft": 15372,
+    "img": "assets/img/sample-18.png"
+  },
+  {
+    "id": "sample-19",
+    "hero": false,
+    "label": "Weir St, Omaha",
+    "lawn_sqft": 12134,
+    "parcel_sqft": 13403,
+    "to_curb_sqft": 18245,
+    "img": "assets/img/sample-19.png"
+  }
+]
