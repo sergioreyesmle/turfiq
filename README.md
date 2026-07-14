@@ -4,7 +4,7 @@
 
 Built for the lawn-care industry: given an address, it measures the turf a crew would actually mow — including the strip out to the curb — even where trees, shadows, or driveways would fool a naive estimate.
 
-### ▶︎ [Try the live demo](#) &nbsp;·&nbsp; real measurements, explore them in your browser
+### ▶︎ [Try the live demo](https://sergioreyesmle.github.io/turfiq/) &nbsp;·&nbsp; real measurements, explore them in your browser
 
 ---
 
